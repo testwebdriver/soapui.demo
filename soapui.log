@@ -1,0 +1,35 @@
+2013-07-19 21:40:52,177 INFO  [SoapUI] Adding [C:\Users\Aruna\soapUI-4.5.2\bin\ext\jxl.jar] to extensions classpath
+2013-07-19 21:40:52,178 INFO  [SoapUI] Adding [C:\Users\Aruna\soapUI-4.5.2\bin\ext\mysql-connector-java-5.1.25-bin.jar] to extensions classpath
+2013-07-19 21:40:52,404 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\Aruna\soapui-settings.xml]
+2013-07-19 21:40:53,045 INFO  [WsdlProject] Loaded project from [file:/C:/Users/Aruna/soapUI-Tutorials/testsoapui/CurrencyConverter-soapui-project.xml]
+2013-07-19 21:40:53,414 INFO  [SoapUITestCaseRunner] Running soapUI tests in project [CurrencyConverter]
+2013-07-19 21:40:53,415 INFO  [SoapUITestCaseRunner] Running Project [CurrencyConverter], runType = SEQUENTIAL
+2013-07-19 21:40:53,436 INFO  [SoapUITestCaseRunner] Running soapUI testcase [TestCase 1]
+2013-07-19 21:40:53,442 INFO  [SoapUITestCaseRunner] running step [Properties]
+2013-07-19 21:40:53,485 INFO  [SoapUITestCaseRunner] running step [ConversionRate - Request 1]
+2013-07-19 21:40:54,339 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2013-07-19 21:40:54,339 INFO  [SoapUITestCaseRunner] Assertion [XPath Match] has status VALID
+2013-07-19 21:40:54,339 INFO  [SoapUITestCaseRunner] Assertion [XPath Match 1] has status VALID
+2013-07-19 21:40:54,340 INFO  [SoapUITestCaseRunner] Assertion [XPath Match 2] has status VALID
+2013-07-19 21:40:54,340 INFO  [SoapUITestCaseRunner] Assertion [XPath Match 3] has status VALID
+2013-07-19 21:40:54,340 INFO  [SoapUITestCaseRunner] running step [JDBC Request]
+2013-07-19 21:40:54,569 INFO  [SoapUITestCaseRunner] Assertion [JDBC Status] has status VALID
+2013-07-19 21:40:54,569 INFO  [SoapUITestCaseRunner] Assertion [JDBC Timeout] has status VALID
+2013-07-19 21:40:54,569 INFO  [SoapUITestCaseRunner] running step [Property Transfer: DB]
+2013-07-19 21:40:54,604 INFO  [SoapUITestCaseRunner] running step [Test Request: DB]
+2013-07-19 21:40:55,062 INFO  [SchemaUtils] Added default schema from file:/C:/Users/Aruna/soapUI-4.5.2/bin/soapui-4.5.2.jar!/com/eviware/soapui/resources/xsds/xop.xsd with targetNamespace http://www.w3.org/2004/08/xop/include
+2013-07-19 21:40:55,107 INFO  [SchemaUtils] Added default schema from file:/C:/Users/Aruna/soapUI-4.5.2/bin/soapui-4.5.2.jar!/com/eviware/soapui/resources/xsds/XMLSchema.xsd with targetNamespace http://www.w3.org/2001/XMLSchema
+2013-07-19 21:40:55,109 INFO  [SchemaUtils] Added default schema from file:/C:/Users/Aruna/soapUI-4.5.2/bin/soapui-4.5.2.jar!/com/eviware/soapui/resources/xsds/xml.xsd with targetNamespace http://www.w3.org/XML/1998/namespace
+2013-07-19 21:40:55,110 INFO  [SchemaUtils] Added default schema from file:/C:/Users/Aruna/soapUI-4.5.2/bin/soapui-4.5.2.jar!/com/eviware/soapui/resources/xsds/swaref.xsd with targetNamespace http://ws-i.org/profiles/basic/1.1/xsd
+2013-07-19 21:40:55,110 INFO  [SchemaUtils] Added default schema from file:/C:/Users/Aruna/soapUI-4.5.2/bin/soapui-4.5.2.jar!/com/eviware/soapui/resources/xsds/xmime200505.xsd with targetNamespace http://www.w3.org/2005/05/xmlmime
+2013-07-19 21:40:55,111 INFO  [SchemaUtils] Added default schema from file:/C:/Users/Aruna/soapUI-4.5.2/bin/soapui-4.5.2.jar!/com/eviware/soapui/resources/xsds/xmime200411.xsd with targetNamespace http://www.w3.org/2004/11/xmlmime
+2013-07-19 21:40:55,113 INFO  [SchemaUtils] Added default schema from file:/C:/Users/Aruna/soapUI-4.5.2/bin/soapui-4.5.2.jar!/com/eviware/soapui/resources/xsds/soapEnvelope.xsd with targetNamespace http://schemas.xmlsoap.org/soap/envelope/
+2013-07-19 21:40:55,118 INFO  [SchemaUtils] Added default schema from file:/C:/Users/Aruna/soapUI-4.5.2/bin/soapui-4.5.2.jar!/com/eviware/soapui/resources/xsds/soapEncoding.xsd with targetNamespace http://schemas.xmlsoap.org/soap/encoding/
+2013-07-19 21:40:55,120 INFO  [SchemaUtils] Added default schema from file:/C:/Users/Aruna/soapUI-4.5.2/bin/soapui-4.5.2.jar!/com/eviware/soapui/resources/xsds/soapEnvelope12.xsd with targetNamespace http://www.w3.org/2003/05/soap-envelope
+2013-07-19 21:40:55,126 INFO  [SchemaUtils] Added default schema from file:/C:/Users/Aruna/soapUI-4.5.2/bin/soapui-4.5.2.jar!/com/eviware/soapui/resources/xsds/soapEncoding12.xsd with targetNamespace http://www.w3.org/2003/05/soap-encoding
+2013-07-19 21:40:55,127 INFO  [SchemaUtils] Loading schema types from [http://www.webservicex.net/CurrencyConvertor.asmx?wsdl]
+2013-07-19 21:40:55,127 INFO  [SchemaUtils] Getting schema http://www.webservicex.net/CurrencyConvertor.asmx?wsdl
+2013-07-19 21:40:55,400 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2013-07-19 21:40:55,400 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2013-07-19 21:40:55,403 INFO  [SoapUITestCaseRunner] Finished running soapUI testcase [TestCase 1], time taken: 1948ms, status: FINISHED
+2013-07-19 21:40:55,403 INFO  [SoapUITestCaseRunner] Project [CurrencyConverter] finished with status [FINISHED] in 1985ms

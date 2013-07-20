@@ -1,24 +1,17 @@
 <project name="soapUI Nightly Build" default="testreport" basedir=".">
-<property name="hudson.workspace.root" value="C:\Users\Aruna\.hudson\jobs\TestWithReport\workspace"/>
 
-	<property name="dir.test.reports" value="${hudson.workspace.root}\junitreports" />
-	
-	<target name="create_directory">
-		<echo message="Create the directory report ${dir.test.reports}" />
-		<mkdir dir="${dir.test.reports}" />
-	</target>
 	
 	<target name="soapui">
 		<exec dir="." executable="C:/Users/Aruna/soapUI-4.5.2/bin/testrunner.bat">
-			<arg  line="-j -f 'C:/Users/Aruna/soapUI-Tutorials/soapUIReports' 'C:/Users/Aruna/soapUI-Tutorials/CurrencyConverter-soapui-project.xml'"/>
+			<arg  line="-j -f 'C:/Users/Aruna/soapUI-Tutorials/testsoapui/soapUIReports' 'C:/Users/Aruna/soapUI-Tutorials/testsoapui/CurrencyConverter-soapui-project.xml'"/>
 		</exec>
 	</target>
-	<target name="testreport" depends="soapui, create_directory">
-		<junitreport todir="C:/Users/Aruna/soapUI-Tutorials/soapUIReports">
-			<fileset dir="C:/Users/Aruna/soapUI-Tutorials/soapUIReports">
+	<target name="testreport" depends="soapui">
+		<junitreport todir="C:/Users/Aruna/soapUI-Tutorials/testsoapui/soapUIReports">
+			<fileset dir="C:/Users/Aruna/soapUI-Tutorials/testsoapui/soapUIReports">
 				<include name= "TEST-*.xml"/>
 			</fileset>
-			<report todir="C:/Users/Aruna/soapUI-Tutorials/soapUIReports/HTML" 
+			<report todir="C:/Users/Aruna/soapUI-Tutorials/testsoapui/soapUIReports/HTML" 
 			    styledir="C:/Users/Aruna/SeleniumUtitlities/apache-ant-1.9.1-bin/apache-ant-1.9.1/etc"
 				format="noframes">
 			</report>
